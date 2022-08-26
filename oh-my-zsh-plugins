@@ -1,0 +1,1 @@
+plugins=(chruby docker git rust sbt scala)

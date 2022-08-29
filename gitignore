@@ -1,0 +1,8 @@
+.DS_Store
+.ammonite/
+.bloop/
+.envrc
+.metals/
+.vscode
+metals.sbt
+target/

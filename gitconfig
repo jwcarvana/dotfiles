@@ -1,0 +1,23 @@
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+	branch = true
+	interactive = true
+	status = true
+[color "status"]
+	added = green
+	changed = red
+	deleted = red
+	untracked = yellow
+[core]
+	excludesfile = /Users/E84019/.gitignore
+[user]
+	name = Jim Weinert
+	email = james.weinert@carvana.com
+[commit]
+	default = matching
+[fetch]
+	prune = true
+[pager]
+	branch = false

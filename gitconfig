@@ -15,9 +15,13 @@
 [user]
 	name = Jim Weinert
 	email = james.weinert@carvana.com
+	signingkey = 8ED6D360AF92149E
 [commit]
 	default = matching
+	gpgsign = true
 [fetch]
 	prune = true
 [pager]
 	branch = false
+[pull]
+	rebase = true

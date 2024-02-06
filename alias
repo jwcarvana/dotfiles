@@ -1,2 +1,3 @@
 alias bp='code $HOME/.zshrc'
+alias httpd="python -m http.server 9000"
 alias sa='source $HOME/.zshrc;echo "zshrc sourced."'

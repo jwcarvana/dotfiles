@@ -1,3 +1,7 @@
 alias bp='code $HOME/.zshrc'
 alias httpd="python -m http.server 9000"
 alias sa='source $HOME/.zshrc;echo "zshrc sourced."'
+
+alias k8s-prod='kubectl config use-context gke_carvana-ngcp-prod_us-central1_default'
+alias k8s-test='kubectl config use-context gke_carvana-ngcp-test_us-central1_default'
+alias k8s-nosidelines='kubectl config use-context gke_nosidelines_us-central1_default'

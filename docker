@@ -1,1 +1,2 @@
 export PATH="$HOME/.docker/bin:$PATH"
+export DOCKER_DEFAULT_PLATFORM=linux/amd64

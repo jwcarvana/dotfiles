@@ -1,0 +1,7 @@
+export CLAUDE_CODE_USE_VERTEX=1
+export CLOUD_ML_REGION='us-east5'
+export ANTHROPIC_VERTEX_PROJECT_ID='crv-engineering-ai-prd-8058'
+export ANTHROPIC_MODEL='claude-opus-4-6@default'
+export ANTHROPIC_DEFAULT_HAIKU_MODEL='claude-haiku-4-5@default'
+
+export PATH="$HOME/.local/bin:$PATH"

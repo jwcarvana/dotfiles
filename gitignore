@@ -1,8 +1,13 @@
 .DS_Store
 .ammonite/
 .bloop/
+.bsp/
+.claude/
 .envrc
+.github/
 .metals/
+.scala-build/
 .vscode/
 metals.sbt
 target/
+WARP.md

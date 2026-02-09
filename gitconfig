@@ -28,6 +28,7 @@
 	rebase = true
 [core]
     pager = delta
+	hooksPath = /Users/E84019/.git-hooks
 [interactive]
     diffFilter = delta --color-only --features=interactive
 [delta]
@@ -42,3 +43,13 @@
     hunk-header-file-style = red
     hunk-header-line-number-style = "#067a00"
     hunk-header-style = file line-number syntax
+[rerere]
+	enabled = true
+[alias]
+	deploy-test = !git push --force-with-lease origin HEAD:deployInTest
+	deploy-test-force = !git push -f origin HEAD:deployInTest
+[maintenance]
+	repo = /Users/E84019/src/carvana-zio
+	repo = /Users/E84019/src/comm-router
+	repo = /Users/E84019/src/conversation-gateway
+	repo = /Users/E84019/src/manifests-cai

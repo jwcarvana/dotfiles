@@ -8,6 +8,9 @@
 .metals/
 .scala-build/
 .vscode/
+ai_docs/
 metals.sbt
 target/
 WARP.md
+
+**/.claude/settings.local.json

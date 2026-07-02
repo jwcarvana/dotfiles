@@ -1,3 +1,5 @@
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/openjdk-21.jdk/Contents/Home"
+export JAVA_HOME="$(brew --prefix openjdk@21)/libexec/openjdk.jdk/Contents/Home"
 export SBT_CREDENTIALS=$HOME/.ivy2/.credentials
-export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+export PATH="$(brew --prefix openjdk@21)/bin:$PATH"
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"

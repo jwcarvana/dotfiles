@@ -9,6 +9,7 @@
 .scala-build/
 .vscode/
 ai_docs/
+build.sbt.semanticdb
 metals.sbt
 target/
 WARP.md

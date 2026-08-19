@@ -10,6 +10,14 @@ NEVER fabricate statistics, data points, or claims not explicitly present in sou
 4. **Separate verified from unverified.** Present the clean draft with unverified claims removed, plus a separate list of removed claims so I can decide whether to add them back with proper sourcing.
 5. **No invention.** Never generate statistics, percentages, quotes, or specific details not found in the sources — even if they seem plausible or "directionally correct."
 
+## Git Workflow for Code Changes
+
+Before making any code changes (edits, new files, refactors — not just reading/exploring), create a new git worktree rather than editing directly in the main checkout. The worktree's directory name must include the relevant Jira ticket ID.
+
+- Use `git worktree add <path> -b <branch-name>`, where both `<path>` and `<branch-name>` include the Jira ticket ID (e.g., `../worktree-PJ-1040-change-log-api` on branch `PJ-1040-change-log-api`).
+- If the task has no known Jira ticket, ask which ticket it belongs to before creating the worktree — don't guess or omit it.
+- This applies across all projects, not just one repo.
+
 ## Code Comments
 
 Code should be its own documentation. Prefer clear names and structure over explanation. Skip comments that restate what the code already says; when a comment is needed (non-obvious *why*, a workaround, a gotcha), keep it as short as possible.

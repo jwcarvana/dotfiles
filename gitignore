@@ -4,6 +4,8 @@
 .bsp/
 .claude/
 .envrc
+.essentials/
+.essentialsrc
 .github/
 .metals/
 .scala-build/
@@ -11,6 +13,8 @@
 ai_docs/
 build.sbt.semanticdb
 metals.sbt
+openspec/
+publish.sbt.semanticdb
 target/
 WARP.md
 

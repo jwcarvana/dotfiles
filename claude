@@ -8,4 +8,5 @@ export CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1
 
 export PATH="$HOME/.local/bin:$PATH"
 
-alias clpr='claude --model opus'
+alias clo='claude --model opus'
+alias clf='claude --model fable'
